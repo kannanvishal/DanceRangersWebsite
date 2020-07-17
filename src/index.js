@@ -11,3 +11,5 @@ ReactDOM.render(
 );
 
 
+/* "predeploy": "yarn build",
+"deploy": "gh-pages -d build" */
