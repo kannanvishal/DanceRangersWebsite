@@ -24,7 +24,7 @@ const routing = (
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
-        <Route path="/home" component={About} />
+        <Route exact path="/home" component={About} />
         <Route path="/images" component={UnderConstruction} />
         <Route path="/videos" component={UnderConstruction} />
         <Route path="/contact" component={UnderConstruction} />
