@@ -2,7 +2,7 @@ import React from 'react';
 
 function Images(){
     return(
-        <img className ="img1" src="./assets/cover.jpg" alt=""></img>
+        <img id="home" className ="img1" src="./assets/cover.jpg" alt=""></img>
     );
 }
 

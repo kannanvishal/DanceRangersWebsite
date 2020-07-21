@@ -2,11 +2,40 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from  "./App";
+import Footer from "./components/Footer";
+import UnderConstruction from "./components/UnderConstruction";
+import About from './components/About';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const routing = (
+  <Router>
+    <div>
+      <App />
+      <Switch>
+        <Route exact path="/">
+          <Redirect to="/home" />
+        </Route>
+        <Route path="/home" component={About} />
+        <Route path="/images" component={UnderConstruction} />
+        <Route path="/videos" component={UnderConstruction} />
+        <Route path="/contact" component={UnderConstruction} />
+      </Switch>
+      <Footer />
+    </div>
+  </Router>
+);
+
 ReactDOM.render(
-    <App></App>,
+  routing,
   document.getElementById('root')
 );
 
