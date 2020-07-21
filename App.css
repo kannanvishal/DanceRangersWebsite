@@ -255,11 +255,10 @@
 
   /*Videos*/
   .videos{
-    text-align: center;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px 0 0 0;
 }
 
@@ -276,6 +275,8 @@
 
 .yt_video {
     display: inline-block;
+    padding: 0 10px;
+
 }
 
 /**Youtube Data**/
