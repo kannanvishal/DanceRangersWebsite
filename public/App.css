@@ -13,10 +13,11 @@
 
  .img1{
     width: 100%;
+    margin-top: 50px;
  }
 
  /*sticky*/
- .sticky {
+ /* .sticky {
   position:fixed;
   top:0;
   width: 100%;
@@ -27,6 +28,25 @@
   display: block;
   height: 5rem;
   margin-top: -5rem;
+} */
+
+.header{
+  position: fixed;
+  width: 100%;
+}
+
+
+.is-hidden {
+  opacity: 0;
+  transform: translate(0, -60px);
+  transition: 0.2s, background 0.3s, color 0.3s,
+  opacity 0 0.3s;
+}
+
+.is-visible {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: 0.2s, background 0.3s, color 0.3s;
 }
 
  /*Top NAV*/
@@ -300,10 +320,9 @@
 /**Footer**/
 .footer{
   text-align: center;
-  bottom: 0;
   width: 100%;
-  height: 1.5rem;
-  margin: auto -16px;
+  margin: auto 0;
+  padding: 5px 0 0 0;
 }
 
 .footer p{
@@ -312,9 +331,36 @@
   
 }
 
+/**Rangers**/
+.rangersMain{
+  background-color: #0a201e;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.rangers{
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color:white;
+  padding:10px 0 0 0;
+}
+
+.rangers .aboutImage{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
   /**Responsive**/
 
   @media (max-width: 767px){
+
+    .img1{
+      margin-top: 60px;
+   }
     
     .menu-wrap .menu > div {
         height: 500vw !important;
