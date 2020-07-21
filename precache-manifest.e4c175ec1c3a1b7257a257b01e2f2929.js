@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d694cf258af797ff9f344585a377302f",
+    "revision": "1379df1698243fa1fac8457cb3634ba9",
     "url": "/DanceRangersWebsite/index.html"
   },
   {
-    "revision": "76b5317a61a740402307",
+    "revision": "0f8ab9f74222f97c5628",
     "url": "/DanceRangersWebsite/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "76b5317a61a740402307",
-    "url": "/DanceRangersWebsite/static/js/2.8d19db79.chunk.js"
+    "revision": "0f8ab9f74222f97c5628",
+    "url": "/DanceRangersWebsite/static/js/2.46f6bd4b.chunk.js"
   },
   {
     "revision": "1574ef54ee8c26b364434935275ff047",
-    "url": "/DanceRangersWebsite/static/js/2.8d19db79.chunk.js.LICENSE.txt"
+    "url": "/DanceRangersWebsite/static/js/2.46f6bd4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b711d29ddc9241730b9",
-    "url": "/DanceRangersWebsite/static/js/main.57d05210.chunk.js"
+    "revision": "32546f8d7495a7eddbb8",
+    "url": "/DanceRangersWebsite/static/js/main.a6be7ee5.chunk.js"
   },
   {
     "revision": "3b0a54e06e992ded21f7",
