@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 function HamburgerMenu(){
 
@@ -18,10 +19,10 @@ function HamburgerMenu(){
           <div>
             <div>
               <ul>
-              <li><a href="home" onClick = {uncheckHam}>Home</a></li>
-                <li><a href="images" onClick = {uncheckHam}>Images</a></li>
-                <li><a href="videos" onClick = {uncheckHam}>Videos</a></li>
-                <li><a href="contact" onClick = {uncheckHam}>Contact</a></li>
+              <li><NavLink to="/home" onClick = {uncheckHam}>Home</NavLink></li>
+                <li><NavLink to="/images" onClick = {uncheckHam}>Images</NavLink></li>
+                <li><NavLink to="/videos" onClick = {uncheckHam}>Videos</NavLink></li>
+                <li><NavLink to="/contact" onClick = {uncheckHam}>Contact</NavLink></li>
               </ul>
             </div>
           </div>
