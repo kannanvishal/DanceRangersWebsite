@@ -7,7 +7,7 @@ import UnderConstruction from "./components/UnderConstruction";
 import About from './components/About';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect
