@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import config from './Config';
+import config from '../datas/Config';
 import numeral from 'numeral';
 
 const YouTubeCounter = () => {

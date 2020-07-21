@@ -5,6 +5,7 @@ import App from  "./App";
 import Footer from "./components/Footer";
 import UnderConstruction from "./components/UnderConstruction";
 import About from './components/About';
+import Videos from './components/Videos';
 
 import {
   HashRouter as Router,
@@ -26,7 +27,7 @@ const routing = (
         </Route>
         <Route exact path="/home" component={About} />
         <Route path="/images" component={UnderConstruction} />
-        <Route path="/videos" component={UnderConstruction} />
+        <Route path="/videos" component={Videos} />
         <Route path="/contact" component={UnderConstruction} />
       </Switch>
       <Footer />

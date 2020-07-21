@@ -1,6 +1,6 @@
 import React from 'react';
 
-import YouTubeCounter from '../components/Youtube/YoutubeCounter';
+import YouTubeCounter from './YoutubeCounter';
 import Rangers from './Rangers';
 import RangersData from '../datas/RangersData';
 
