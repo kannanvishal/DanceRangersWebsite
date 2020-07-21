@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DanceRangersWebsite/precache-manifest.7d5b5895bedaf7aca702ffe5b9095509.js"
+  "/DanceRangersWebsite/precache-manifest.ee68f188c3c8ca63feb53a8170024661.js"
 );
 
 self.addEventListener('message', (event) => {
