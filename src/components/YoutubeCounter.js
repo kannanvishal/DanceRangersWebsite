@@ -23,7 +23,7 @@ const YouTubeCounter = () => {
             setVideoCount(vidCount);
             setViewCount(vieCount);
         })
-    });
+    },[]);
 
     return(
         <section className="row youtubeData">

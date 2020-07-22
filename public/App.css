@@ -258,26 +258,25 @@
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px 0 0 0;
-}
+    justify-content: space-evenly;
+    padding: 20px 0 0 0;
+  }
 
-.video1 {
+  .video1 {
     width: 320px;
-    display: inline-block;
+    text-align: center;
     box-shadow: 0 2px 10px 0 rgba(193, 193, 193, .4);
     margin: 10px;
 }
 
+.video1 .youtubeHeader{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
 .video1:hover {
-    border: 1px solid #FB7C04;
-}
-
-.yt_video {
-    display: inline-block;
-    padding: 0 10px;
-
-}
+  border: 1px solid #0a201e;
+} 
 
 /**Youtube Data**/
 .youtubeData {
@@ -384,18 +383,6 @@
       text-align: justify;
       padding: 10px 10px 20px 10px;
     }
-
-    :target:before {
-      content: '';
-      display: block;
-      height: 5rem;
-      margin-top: -5rem;
-    }
-
-      .video {
-          width:100%;
-          margin: auto;
-      }
 
     .youtubeData {
       height: 100%;
