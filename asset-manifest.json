@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/DanceRangersWebsite/static/js/main.ea0b8b75.chunk.js",
-    "main.js.map": "/DanceRangersWebsite/static/js/main.ea0b8b75.chunk.js.map",
+    "main.js": "/DanceRangersWebsite/static/js/main.35258451.chunk.js",
+    "main.js.map": "/DanceRangersWebsite/static/js/main.35258451.chunk.js.map",
     "runtime-main.js": "/DanceRangersWebsite/static/js/runtime-main.e0573ebc.js",
     "runtime-main.js.map": "/DanceRangersWebsite/static/js/runtime-main.e0573ebc.js.map",
     "static/css/2.af3c1da9.chunk.css": "/DanceRangersWebsite/static/css/2.af3c1da9.chunk.css",
     "static/js/2.2a4462ef.chunk.js": "/DanceRangersWebsite/static/js/2.2a4462ef.chunk.js",
     "static/js/2.2a4462ef.chunk.js.map": "/DanceRangersWebsite/static/js/2.2a4462ef.chunk.js.map",
     "index.html": "/DanceRangersWebsite/index.html",
-    "precache-manifest.85f321d265e244f3c94d106bf44761cd.js": "/DanceRangersWebsite/precache-manifest.85f321d265e244f3c94d106bf44761cd.js",
+    "precache-manifest.bd28a6bf7d4aadb2616950c0d693d7d0.js": "/DanceRangersWebsite/precache-manifest.bd28a6bf7d4aadb2616950c0d693d7d0.js",
     "service-worker.js": "/DanceRangersWebsite/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/DanceRangersWebsite/static/css/2.af3c1da9.chunk.css.map",
     "static/js/2.2a4462ef.chunk.js.LICENSE.txt": "/DanceRangersWebsite/static/js/2.2a4462ef.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e0573ebc.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.2a4462ef.chunk.js",
-    "static/js/main.ea0b8b75.chunk.js"
+    "static/js/main.35258451.chunk.js"
   ]
 }
