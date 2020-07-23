@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import UnderConstruction from "./components/UnderConstruction";
 import About from './components/About';
 import Videos from './components/Videos';
+import contact from './components/Contact';
 
 import {
   HashRouter as Router,
@@ -28,7 +29,7 @@ const routing = (
         <Route exact path="/home" component={About} />
         <Route path="/images" component={UnderConstruction} />
         <Route path="/videos" component={Videos} />
-        <Route path="/contact" component={UnderConstruction} />
+        <Route path="/contact" component={contact} />
       </Switch>
       <Footer />
     </div>
