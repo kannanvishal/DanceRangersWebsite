@@ -1,6 +1,5 @@
 {
   "name": "my-html-app",
-  "homepage": "https://kannanvishal.github.io/DanceRangersWebsite/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
